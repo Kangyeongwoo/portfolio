@@ -89,11 +89,11 @@ header.sticky{position:fixed;z-index:999}
 #projects h2{color:#374054;margin-bottom:50px}
 .project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
 .project-image{float:left;width:300px;height:300px}
-.project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px}
+.project-info{position:absolute;width: 70%;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px}
 .project-info h3{font-size:1.5em;font-weight:300;color:#374054;margin:0 0 15px 0}
 .project-info p{color:#74808a;margin:0 0 15px 0;font-size:0.9em}
 .no-image
-.project-info{position:relative;margin:0;padding:30px 15px;transform:none}
+.project-info{position:relative;margin:0;padding:30px 15px;transform:none;}
 #more-projects{display:none}
 #skills{padding:50px 15px;text-align:center}
 #skills h2{color:#374054;margin-bottom:50px}
@@ -145,7 +145,7 @@ header.sticky{position:fixed;z-index:999}
 .education-block h3,
 .education-block span{float:none}
 .project-image{display:none}
-.project-info{position:relative;margin:0;padding:30px 15px;top:auto;transform:none}footer{text-align:center}
+.project-info{position:relative;margin:0;padding:30px 15px;top:auto;transform:none;width: 100%}footer{text-align:center}
 .social{text-align:center}
 }@media only screen and (max-width: 480px)
 {
